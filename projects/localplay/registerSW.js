@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/projects/localplay/sw.js', { scope: '/projects/localplay/' })})}
